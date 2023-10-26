@@ -1,0 +1,11 @@
+package header
+
+import "example.com/gth-stack/src/views/components/common/Icon"
+
+templ header() {
+    <nav class="w-full flex content-between" id="navbar">
+        <div>
+            @icon.Icon(icon.BRAND, icon.IconConfig {})
+        </div>
+    </nav>
+}
