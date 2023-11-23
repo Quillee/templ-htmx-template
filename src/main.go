@@ -1,7 +1,6 @@
 package main
 
 import (
-
 	controller "example.com/gth-stack/src/modules"
 	"github.com/gofiber/fiber/v2"
 )

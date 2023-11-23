@@ -3,11 +3,11 @@ package icon
 import "github.com/markphelps/optional"
 
 type IconConfig struct {
-	width    optional.String
-	height   optional.String
-	fill     optional.String
-	bg_color optional.String
-	stroke   optional.String
+	Width    optional.String
+	Height   optional.String
+	Fill     optional.String
+	Bg_color optional.String
+	Stroke   optional.String
 }
 
 type DefaultConfig struct {
@@ -26,13 +26,13 @@ const (
 
 templ Icon(_type IconType, additional_config IconConfig) {
 	switch _type {
-		case "brand":
-			@ico_venatus {
-				additional_config 
-			}
-        default:
-			@ico_venatus {
-				additional_config 
-			}
+		case BRAND:
+			@ico_venatus(
+                additional_config,
+			)
+		default:
+			@ico_venatus(
+                additional_config,
+			)
 	}
 }

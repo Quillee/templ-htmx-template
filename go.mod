@@ -10,6 +10,7 @@ require (
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/klauspost/compress v1.17.1 // indirect
+	github.com/libsql/libsql-client-go v0.0.0-20231018121623-6f7c8595b727 // indirect
 	github.com/markphelps/optional v0.11.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect

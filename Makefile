@@ -15,6 +15,7 @@ deps:
 		github.com/a-h/templ \
 		github.com/markphelps/optional \
 		github.com/joho/godotenv \
-		github.com/mattn/go-sqlite3
+		github.com/mattn/go-sqlite3 \
+        github.com/libsql/libsql-client-go
 codegen:
 	templ generate

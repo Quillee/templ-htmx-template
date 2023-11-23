@@ -1,5 +1,26 @@
 package button
 
-templ Button() {
-    
+import "github.com/markphelps/optional"
+
+type BUTTON_SIZE string
+
+const (
+    Large BUTTON_SIZE = "LORG"
+    Small BUTTON_SIZE = "SMOL"
+)
+
+type ButtonConfig struct { 
+    size BUTTON_SIZE
+    label optional.String
+}
+
+templ Button(cfg ButtonConfig) {
+    class := if cfg.size == Large {
+
+    } else {
+
+    }
+    <button>
+        { cfg.label.OrElse("Submit") }
+    </button>
 }

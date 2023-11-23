@@ -17,6 +17,8 @@ github.com/klauspost/compress v1.17.1/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQs
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
+github.com/libsql/libsql-client-go v0.0.0-20231018121623-6f7c8595b727 h1:9pB6/lQ1Y/2tKCXDCvIR8Gz3oq7EH2b43KVoc6cUoW4=
+github.com/libsql/libsql-client-go v0.0.0-20231018121623-6f7c8595b727/go.mod h1:T+1lRvREkstNW7bmF1PTiDhV6hji0mrlfZkZuk/UPhw=
 github.com/markphelps/optional v0.11.0 h1:NiN3aRmUzs+nfdSaFQ646PmlbhVHr11mZU2DQMbWDfQ=
 github.com/markphelps/optional v0.11.0/go.mod h1:Fvjs1vxcm7/wDqJPFGEiEM1RuxFl9GCyxQlj9M9YMAQ=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=

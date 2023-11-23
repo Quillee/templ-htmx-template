@@ -1,11 +1,14 @@
 package header
 
 import "example.com/gth-stack/src/views/components/common/Icon"
+import "github.com/markphelps/optional"
 
-templ header() {
+templ Header() {
     <nav class="w-full flex content-between" id="navbar">
         <div>
-            @icon.Icon(icon.BRAND, icon.IconConfig {})
+            @icon.Icon(icon.BRAND, icon.IconConfig { 
+                Width: optional.NewString("32px"),
+            })
         </div>
     </nav>
 }
