@@ -1,0 +1,19 @@
+package views
+
+import "example.com/gth-stack/src/views/layouts"
+import "example.com/gth-stack/src/views/styles"
+import "example.com/gth-stack/src/views/components/common/Button"
+
+templ UiTest() {
+	@layouts.App() {
+        <main class="h-full w-full p-2 bg-gradient-to-br from-indigo-900 to-indigo-950">
+            <div class={styles.FlexCol(), "p-5"}>
+                <h1 class="text-teal-300">Component Documentation</h1>
+
+                <h2>
+                    @button.Button()
+                </h2>
+            </div>
+        </main>
+	}
+}
